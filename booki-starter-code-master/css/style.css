@@ -16,7 +16,7 @@
 
 body {
     display: flex;
-    justify-content: center;
+    justify-content: center;    
 }
 
 .main-container {
@@ -70,6 +70,7 @@ header img {
     height: 19px;
 }
 
+
 nav ul {
     display: flex;
     list-style: none;
@@ -80,7 +81,7 @@ nav ul {
 }
 
 nav li {
-    padding: 35px 20px;
+    padding: 35px 20px;    
     cursor: pointer;
     border-top: 2px solid transparent;
     transition: 0.2s;
@@ -298,6 +299,7 @@ nav li:hover {
 
 .activites {
     padding: 30px;
+    padding-top: 60px;
 }
 
 .activites h2 {
@@ -333,7 +335,7 @@ nav li:hover {
 }
 
 .activites-cards .card-title {
-    height: 60px;              
+    height: 41px;              
     display: flex;
     align-items: center;       
     padding-left: 20px;
@@ -344,9 +346,9 @@ nav li:hover {
 
 footer {
     background-color: var(--main-bg-color);
-    padding: 20px 0;
     display: flex;
     margin-top: 40px;
+    margin-bottom: -10px;
 }
 
 .footer-column {
@@ -367,7 +369,6 @@ footer {
 .footer-column ul li {
     margin-bottom: 15px;
 }
-
 
 
 
@@ -406,11 +407,25 @@ footer {
     .populaires-cards .card-subtitle {
         font-size: 13px;
     }
-}
+
+    .activites-cards .card {
+       height: auto;
+    }
+
+    .activites {
+        height: 390px;
+        padding-top: 60px;
+    }
+
+}   
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
 
+    body {
+        margin: 0;
+    }
+    
     .main-container {
         padding: 0;
     }
@@ -421,10 +436,14 @@ footer {
         padding-top: 30px;
     }
     
+    nav {
+        width: 100%;
+    }
+
     nav ul {
         width: 100%;
         padding: 0;
-        gap: 15px; 
+        gap: 0px; 
     }
 
     nav li {
@@ -477,7 +496,12 @@ footer {
         gap: 10px;
     }
  
+    .filter-item {
+        font-size: 14px;
+        width: 48%;
+    }
 
+    
     /* hébergements */
 
     .hebergements-and-populaires {
@@ -489,7 +513,7 @@ footer {
         width: 100%;
         margin-top: 0;
         border-radius: 0 !important;
-        background-color: var(--main-color); 
+        background-color: var(--main-bg-color); 
     }
 
     .populaires-cards {
