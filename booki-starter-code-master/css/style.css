@@ -501,6 +501,14 @@ footer {
         width: 48%;
     }
 
+    .info-bar {
+        width: 100%;
+    }
+
+    .info-icon {
+        width: 9%;
+    }
+
     
     /* hébergements */
 
