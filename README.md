@@ -11,7 +11,7 @@ L'objectif était d'intégrer l'interface du site de l'agence de voyage "Booki",
 * Écriture d'un code **HTML5 sémantique** pour un meilleur référencement (SEO) et une meilleure accessibilité.
 * Code validé sans erreurs par le validateur W3C (HTML et CSS).
 
-## 🛠️Technologies et Outils utilisés
+## Technologies et Outils utilisés
 * **HTML5** (Structure et sémantique)
 * **CSS3** (Style, Flexbox, Media Queries)
 * **FontAwesome** (Icônes)
